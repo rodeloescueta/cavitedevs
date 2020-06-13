@@ -46,7 +46,7 @@ export default new Router({
         },
         // Maps
         {
-          name: "Google Maps",
+          name: "Location",
           path: "maps/google-maps",
           component: () => import("@/views/dashboard/maps/GoogleMaps")
         },
