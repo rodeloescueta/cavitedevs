@@ -8,6 +8,7 @@
           icon="mdi-xml"
           title="Web Developer"
           class="px-5 py-3"
+          to="/pages/webdev"
         >
           <v-divider />
           <v-card flat height="100">
@@ -28,9 +29,10 @@
           <v-divider />
           <v-card flat height="100">
             <span class="Subtitle 1"
-              >Adipisicing officia cupidatat irure velit aliqua fugiat voluptate
-              occaecat.</span
-            >
+              >Aliqua commodo non voluptate voluptate ullamco minim Lorem culpa
+              nisi quis consequat.Aliqua commodo non voluptate voluptate ullamco minim Lorem culpa
+              nisi quis consequat.
+            </span>
           </v-card>
         </base-material-card>
       </v-col>
@@ -85,3 +87,11 @@
     </v-row>
   </v-container>
 </template>
+
+<script>
+  export default {
+    name: 'DashBoard',
+    methods:{
+    }
+  }
+</script>

@@ -19,31 +19,36 @@ export default new Router({
         },
         // Pages
         {
-          name: "User Profile",
-          path: "pages/user",
-          component: () => import("@/views/dashboard/pages/UserProfile")
+          name: "Web Development",
+          path: "pages/webdev",
+          component: () => import("@/views/dashboard/pages/WebDev")
         },
-        {
-          name: "Notifications",
-          path: "components/notifications",
-          component: () => import("@/views/dashboard/component/Notifications")
-        },
-        {
-          name: "Icons",
-          path: "components/icons",
-          component: () => import("@/views/dashboard/component/Icons")
-        },
-        {
-          name: "Typography",
-          path: "components/typography",
-          component: () => import("@/views/dashboard/component/Typography")
-        },
+        // {
+        //   name: "User Profile",
+        //   path: "pages/user",
+        //   component: () => import("@/views/dashboard/pages/UserProfile")
+        // },
+        // {
+        //   name: "Notifications",
+        //   path: "components/notifications",
+        //   component: () => import("@/views/dashboard/component/Notifications")
+        // },
+        // {
+        //   name: "Icons",
+        //   path: "components/icons",
+        //   component: () => import("@/views/dashboard/component/Icons")
+        // },
+        // {
+        //   name: "Typography",
+        //   path: "components/typography",
+        //   component: () => import("@/views/dashboard/component/Typography")
+        // },
         // Tables
-        {
-          name: "Regular Tables",
-          path: "tables/regular-tables",
-          component: () => import("@/views/dashboard/tables/RegularTables")
-        },
+        // {
+        //   name: "Regular Tables",
+        //   path: "tables/regular-tables",
+        //   component: () => import("@/views/dashboard/tables/RegularTables")
+        // },
         // Maps
         {
           name: "Location",
