@@ -3,12 +3,8 @@
 </template>
 
 <script>
-  export default {
-    name: 'App',
-    methods:{
-      test(val){
-        console.log(val)
-      }
-    }
-  }
+export default {
+  name: "App",
+  methods: {}
+};
 </script>
